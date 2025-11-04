@@ -8,21 +8,21 @@ This project is a **macro-enabled Excel solution** that automates recipe costing
 
 - **RECIPE COSTING sheet.xlsm** — This is the main workbook containing all macros, logic, and all worksheets. it can be assessed by [clicking this link](https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/ce20c932caff1a607e1ab9c44f3befa93f66e732/RECIPE%20COST%20CALCULATOR.xlsm). The sheets in the workbook are as follows:
     - **Unit Conversion Sheet** —This sheet holds the relationship between the different units of measure. it is fundamental to this calculator.
-  -   - <p align="center">
+     - <p align="center">
   <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/UNIT%20CONVERSION%20SHEET.png?raw=1"
        alt="Unit Conversion Sheet" width="100%">
-</p>   
+      </p>   
    - **Ingredients conversion sheet** —This sheet holds the ingredients prices for their base unit as gotten from the market and also converts/ breakdown the ingredients into other relational units(e.g., grams, ml, cups):
-<p align="center">
+    <p align="center">
   <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/INGREDIENTS%20SHEET.png?raw=1"
        alt="Ingredients Sheet" width="100%">
-</p>
+    </p>
 
   - **Blank recipe sheet** — Starting point for creating new recipes.
-  - <p align="center">
+   <p align="center">
   <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/BLANK%20RECIPE%20SHEET.png?raw=1"
        alt="Blank Recipe Sheet" width="100%">
-</p> 
+    </p> 
  
   - **Sample Recipe Sheet** — Example of a completed costing sheet.
    - <p align="center">
