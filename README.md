@@ -6,17 +6,36 @@ This project is a **macro-enabled Excel solution** that automates recipe costing
 
 ## 📂 Project Files
 
-- **RECIPE COSTING sheet.xlsm** — Main workbook containing all macros and logic as well as all worksheets. the sheets in the workbook are as follows:
+- **RECIPE COSTING sheet.xlsm** — This is the main workbook containing all macros, logic, and all worksheets. it can be assessed by [clicking this link](https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/ce20c932caff1a607e1ab9c44f3befa93f66e732/RECIPE%20COST%20CALCULATOR.xlsm). The sheets in the workbook are as follows:
   - ***Ingredients conversion sheet** — Unit reference for ingredient standardization (e.g., grams, ml, cups):
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/ChinagromOdo/Recipe-Cost-Calculator/main/Assets/INGREDIENTS%20SHEET.png" 
-       alt="Ingredients Sheet" width="600">
+<p align="center">
+  <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/INGREDIENTS%20SHEET.png?raw=1"
+       alt="Ingredients Sheet" width="100%">
 </p>
 
-  - **Blank recipe sheet** — Starting point for creating new recipes. [CLick to view sheet](https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/e139511ea63110c4715b1c1f472c341bac8e1495/BLANK%20RECIPE%20SHEET.png)
-  - **SAMPLE RECIPE SHEET** — Example of a completed costing sheet.  
-  - **SUMMARY SHEET** — Overview of recipes, costs, and profitability.  
-  - **UNIT CONVERSION SHEET** — Visual of the conversion system in use.  
+  - **Blank recipe sheet** — Starting point for creating new recipes.
+  - <p align="center">
+  <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/BLANK%20RECIPE%20SHEET.png?raw=1"
+       alt="Blank Recipe Sheet" width="100%">
+</p> 
+ 
+  - **SAMPLE RECIPE SHEET** — Example of a completed costing sheet.
+   - <p align="center">
+  <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/SAMPLE%20RECIPE%20SHEET.png?raw=1"
+       alt="Sample Recipe Sheet" width="100%">
+</p> 
+ 
+  - **SUMMARY SHEET** — Overview of recipes, costs, and profitability.
+     - <p align="center">
+  <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/SUMMARY%20SHEET.png?raw=1"
+       alt="Summary Sheet" width="100%">
+</p> 
+
+  - **UNIT CONVERSION SHEET** — Visual of the conversion system in use.
+  -   - <p align="center">
+  <img src="https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/main/UNIT%20CONVERSION%20SHEET.png?raw=1"
+       alt="Unit Conversion Sheet" width="100%">
+</p>   
 
 ---
 
@@ -37,7 +56,24 @@ Built with **Excel VBA**, this workbook connects multiple sheets into a single a
 - Macros generate new recipe sheets from a template  
 - Ingredient prices are fetched and calculated dynamically using vlookup, index, match.
 - Recommended selling price and profitability are computed instantly  
-- The **Summary Sheet** updates with recipe links and pricing data through the `Update` macro  
+- The **Summary Sheet** updates with recipe links and pricing data through the `Update` macro
+
+- 🧑‍💻 VBA Code Structure
+
+All automation in this workbook is powered by custom **VBA macros** stored inside `RECIPE COSTING sheet.xlsm`.
+
+For transparency and documentation, the core scripts have been exported and included in the `/VBA` folder.  
+These modules handle the automation for creating new recipe sheets, and updating the summary table.
+
+### 📘 Key Modules
+
+| Module | Description |
+|:--------|:-------------|
+| **modNewSheet](https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/687a4ac43406004941edb15f3901d12d6fbbacbf/VBA/DupSheet.bas)** | Handles the “Create New Sheet” button logic. Duplicates the template, renames it, and initializes formulas. |
+|
+| **[modSummaryUpdate](https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/687a4ac43406004941edb15f3901d12d6fbbacbf/VBA/ForSummarysheet.bas)** | Updates the Summary sheet with hyperlinks, recipe names, and computed metrics. |
+
+
 
 ---
 
