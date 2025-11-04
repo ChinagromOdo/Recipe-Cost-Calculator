@@ -7,7 +7,12 @@ This project is a **macro-enabled Excel solution** that automates recipe costing
 ## 📂 Project Files
 
 - **RECIPE COSTING sheet.xlsm** — Main workbook containing all macros and logic as well as all worksheets. the sheets in the workbook are as follows:
-  - ***Ingredients conversion sheet** — Unit reference for ingredient standardization (e.g., grams, ml, cups): [Click to view sheet](ASSETS/  
+  - ***Ingredients conversion sheet** — Unit reference for ingredient standardization (e.g., grams, ml, cups):
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/ChinagromOdo/Recipe-Cost-Calculator/main/Assets/INGREDIENTS%20SHEET.png" 
+       alt="Ingredients Sheet" width="600">
+</p>
+
   - **Blank recipe sheet** — Starting point for creating new recipes. [CLick to view sheet](https://github.com/ChinagromOdo/Recipe-Cost-Calculator/blob/e139511ea63110c4715b1c1f472c341bac8e1495/BLANK%20RECIPE%20SHEET.png)
   - **SAMPLE RECIPE SHEET** — Example of a completed costing sheet.  
   - **SUMMARY SHEET** — Overview of recipes, costs, and profitability.  
